@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+install and configure tailwind CSS
+install react router dom
+Create Home Page Folder
+create Homepage js file
+Create Header with Title Welcome
+create Introduction page for Portfolio Owner Introduction
+create About section for Owner summary
+
+About page
+ Image Download from Freepik
+     https://www.freepik.com/free-ai-image/3d-portrait-people_66108324.htm#from_view=detail_alsolike&position=7 
+ 
+ 
