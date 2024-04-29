@@ -9,7 +9,7 @@ const app = express();
  dotenv.config();
 import portfolioRoute from './server/routes/portfolioRoute.js';
 
-
+const __dirname = path.resolve(); 
 app.use("/api/portfolio", portfolioRoute);
 
 const corsOptions ={
@@ -33,8 +33,8 @@ app.listen(4000, () => {
     }
 )
 
-const __dirname = path.resolve(); 
-app.use(express.static(path.join(__dirname, '/client')));
+
+app.use(express.static(path.join(__dirname, '/client/build')));
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'client','index.html'));
+  res.sendFile(path.join(__dirname, 'client', 'build', 'index.html'));
 })
