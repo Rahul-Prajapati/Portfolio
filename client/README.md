@@ -70,6 +70,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 install and configure tailwind CSS
+Three colors are use to  create the website which are defined in tailwind.config.js file --
+colors: {
+        "primary" : "#0A192F",
+        "secondary" : "#F97316",
+        "tertiary" : "#54D688"
+}
+
 install react router dom
 Create Home Page Folder
 create Homepage js file
@@ -81,4 +88,25 @@ About page
  Image Download from Freepik
      https://www.freepik.com/free-ai-image/3d-portrait-people_66108324.htm#from_view=detail_alsolike&position=7 
  
- 
+Create Experience section
+Create Couses section
+Create Contact section
+
+install git init
+install mongoose
+install nodemon
+install dotenv
+install mongodb
+create env file for security of private data
+
+create portfoliomodel for portfolio data.
+
+npm i antd for form template to CRUD operation of DATA.
+Added routes for creation, read, updation and deletion of data dynamicaly inside portfolioRoute.js folder
+
+Added usermodel to store admin credentials for handling portfolio data.
+
+install react-icons
+Use BiArrorFunction for scrollToTop functionality
+
+
